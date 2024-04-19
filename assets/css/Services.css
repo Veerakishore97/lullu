@@ -1,0 +1,1255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    
+    width: 100%;
+    padding: 10px;
+    background: #040c49;
+    display: flex;
+    height: 65px;
+    
+}
+.navbar img{
+    width:30px;
+    height: 30px;
+    margin-left: 10px;
+    
+    
+}
+.logos{
+    /* position: sticky; */
+    margin-left: 8px;   
+    margin-top: 10px;
+    
+}
+ .menu span{
+    margin-left: 900px;
+    color: white;
+   font-size: 30px;
+}
+/* .navbar1{
+  z-index: 2;
+} */
+.navbar1 .max-width{
+  
+   display: flex;
+   align-items: center;
+   
+   box-shadow: 5px 5px 7px gray;
+   padding: 30px;
+   height: 110px;
+
+}
+
+.max-width .logo img{
+    width: 120px;
+    height: 100px;
+     margin-left: 20px;
+    
+}
+.menu1{
+    margin-left: 80px;
+  
+    display: inline-flex;
+    
+}
+.navbar1 .menu1 li{
+ 
+  list-style-type: none;
+  
+ 
+}
+.navbar1 .menu1 li a{
+    
+    margin-left: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    color: #3A3A3A;
+}
+.dropdown{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 3px;
+  display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    background-color: #040c49;
+    width: 150px;
+    padding: 12px 16px;
+    color: whitesmoke;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+ .text2{
+    position: absolute;
+    display: none;
+    background-color: #040c49;
+    width: 150px;
+    padding: 12px 16px;
+    margin-top: 45px;
+    text-decoration: none;
+}
+.dropdown:hover .text2{
+    display: block;
+    color: whitesmoke;
+    
+}
+.text3{
+    position: absolute;
+    display: none;
+    background-color: #040c49;
+    width: 150px;
+    padding: 12px 16px;
+    margin-top: 90px;
+    
+     text-decoration: none;
+}
+.dropdown:hover .text3{
+    display: block;
+    
+    
+}
+.text4{
+    position: absolute;
+    display: none;
+    background-color: #040c49;
+    width: 150px;
+    padding: 12px 16px;
+    margin-top: 135px;
+    
+    
+    text-decoration: none;
+}
+.dropdown:hover .text4{
+    display: block;
+    
+    
+}
+/* services */
+.ser1{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    color: #272c6c;
+}
+/*  */
+.valetservice>img{
+    height: 170px;
+    width: 169px;
+    margin-left: 150px;
+    margin-top: 100px;
+    filter: grayscale(100);
+
+}
+.valetservice>img:hover{
+    filter: grayscale(0);
+
+}
+.valetservice{
+    display: inline-flex;
+}
+.valetservice1>h3{
+    margin-top: 130px;
+    margin-left: 20px;
+    margin-bottom:20px ;
+    color: #272c6c;;
+
+}
+.valetservice1>p{
+    margin-left: 20px;
+    width: 60%;
+    line-height: 30px;
+    color: #272c6c;
+
+}
+.first{
+    display: inline-flex;
+}
+.care>img{
+    height: 170px;
+    width: 169px;
+    margin-top: 100px;
+    margin-left: -180px;
+    filter: grayscale(100);
+}
+.care>img:hover{
+    filter: grayscale(0);
+}
+.care{
+    display: inline-flex;
+}
+.care1>h3{
+    margin-top: 120px;
+    margin-left: 20px;
+    color: #272c6c;
+}
+.care1>p{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 73%;
+    line-height: 30px;
+    color: #272c6c;
+}
+
+/*  */
+.pram>img{
+    height: 170px;
+    width: 169px;
+    margin-left:150px;
+    margin-top: 40px;
+    filter: grayscale(100);
+}
+.pram>img:hover{
+    filter: grayscale(0);
+}
+.pram{
+    display: inline-flex;
+}
+.pram1>h3{
+    margin-top: 70px;
+    margin-left: 20px;
+    color: #272c6c;
+}
+.pram1>p{
+    translate: 20px 0px;
+    margin-top: 10px;
+    color: #272c6c;
+}
+.secound{
+    display: inline-flex;
+}
+.luggage>img{
+    height: 170px;
+    width: 169px;
+    margin-left: 250px;
+    margin-top: 40px;
+    filter: grayscale(100);
+}
+.luggage>img:hover{
+    filter: grayscale(0);
+}
+.luggage{
+    display: inline-flex;
+}
+.room>h3{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #272c6c;
+    
+}
+.luggage>.room>p{
+    width: 75%;
+    line-height: 30px;
+    margin-left: 20px;
+    color: #272c6c;
+}
+/*  */
+.car>img{
+    height: 170px;
+    width: 169px;
+    margin-left: 150px;
+    margin-top: 40px;
+    filter: grayscale(100);
+}
+.car>img:hover{
+    filter: grayscale(0);
+}
+.car{
+    display: inline-flex;
+}
+.car1>h3{
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #272c6c;
+}
+.car1>p{
+    translate: 20px 0px;
+    color: #272c6c;
+    
+}
+.three{
+    display: inline-flex;
+}
+.wifi>img{
+    height: 170px;
+    width: 169px;
+    margin-left: 290px;
+    margin-top: 40px;
+    filter: grayscale(100);
+}
+.wifi>img:hover{
+    filter: grayscale(0);
+}
+.wifi{
+    display: inline-flex;
+}
+.wifi1>h3{
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    color: #272c6c;
+} 
+.wifi1>p{
+    width: 75%;
+    margin-left: 20px;
+    line-height: 30px;
+    color: #272c6c;
+}
+/*  */
+.chair>img{
+    height: 170px;
+    width: 169px;
+    margin-left: 150px;
+    margin-top: 40px;
+    filter: grayscale(100);
+    
+}
+.chair>img:hover{
+    filter: grayscale(0);
+}
+.chair{
+    display: inline-flex;
+}
+.chair1>h3{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #272c6c;
+}
+.chair1>p{
+    margin-left: 20px;
+    color: #272c6c;
+
+}
+.four{
+    display: inline-flex;
+}
+.loyal>img{
+    height: 170px;
+    width: 169px;
+    margin-left:230px;
+    margin-top: 40px;
+    filter: grayscale(100);
+    
+}
+.loyal>img:hover{
+    filter: grayscale(0);
+}
+.loyal{
+    display: inline-flex;
+}
+.loyal1>h3{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #272c6c;
+}
+.loyal1>p{
+    margin-left: 20px;
+    color: #272c6c;
+}
+/*  */
+.found>img{
+    height: 170px;
+    width: 169px;
+    margin-left: 150px;
+    margin-top: 40px;
+    filter: grayscale(100);
+}
+.found>img:hover{
+    filter: grayscale(0);
+}
+.found{
+    display: inline-flex;
+}
+.lost1>h3{
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    color: #272c6c;
+}
+.lost1>p{
+    margin-left: 20px;
+    color: #272c6c;
+
+}
+.five{
+    display: inline-flex;
+}
+.power>img{
+    margin-left: 165px;
+    height: 170px;
+    width: 169px;
+    margin-top: 40px;
+    filter: grayscale(100);
+}
+.power>img:hover{
+    filter: grayscale(0);
+
+}
+.power{
+    display: inline-flex;
+}
+.power1>h3{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #272c6c;
+}
+.power1>p{
+    margin-left: 20px;
+    color: #272c6c;
+}
+/*  */
+.info>img{
+    height: 170px;
+    width: 169px;
+    margin-left: 150px;
+    margin-top: 40px;
+    filter: grayscale(100);
+
+}
+.info>img:hover{
+    filter: grayscale(0);
+}
+.info{
+    display: inline-flex;
+}
+.info1>h3{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #272c6c;
+    
+}
+.info1>p{
+    margin-left: 20px;
+    width: 120%;
+    line-height: 30PX;
+    color: #272c6c;
+}
+.six{
+    display: inline-flex;
+}
+.access>img{
+    height: 170px;
+    width: 169px;
+    margin-left: 220px;
+    margin-top: 40px;
+    filter: grayscale(100);
+}
+.access>img:hover{
+    filter: grayscale(0);
+}
+.access{
+    display: inline-flex;
+}
+.access1>h3{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #272c6c;
+    
+}
+.access1>p{
+    margin-left: 20px;
+    line-height: 30px;
+    width: 80%;
+    color: #272c6c;
+}
+.ambulance>img{
+    height: 170px;
+    width: 169px;
+    margin-left: 150px;
+    margin-top: 40px;
+    filter: grayscale(100);
+}
+.ambulance>img:hover{
+    filter: grayscale(0);
+}
+.ambulance{
+    display: inline-flex;
+}
+.ambulance1>h3{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #272c6c;
+}
+.ambulance1>p{
+    margin-left: 20px;
+    width: 80%;
+    line-height: 30px;
+    color: #272c6c; 
+}
+.seven{
+    display: inline-flex;
+}
+.ev>img{
+    height: 170px;
+    width: 169;
+    margin-left: 90px;
+    margin-top: 40px;
+    filter: grayscale(100);
+}
+.ev>img:hover{
+    filter: grayscale(0);
+}
+.ev{
+    display: inline-flex;
+}
+.ev1>h3{
+    margin-top: 70px;
+    margin-left: 20px;
+    color: #272c6c;
+}
+.ev1>p{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #272c6c;
+}
+@media screen and (min-width:769px) and (max-width:1025px){
+    .valetservice>img{
+        height: 108px;
+        width: 108px;
+        margin-left: 120px;
+    }
+    .valetservice1>p{
+        margin-top: -10px;
+        font-size: 15px;
+        width: 50%;
+    }
+    .care>img{
+        height: 108px;
+        width: 108px;
+        margin-left: -150px;
+    }
+    .care1>p{
+        margin-top: 10px;
+        width: 60%;
+        font-size: 15px;
+    }
+    .pram>img{
+        height: 108px;
+        width: 108px;
+        margin-left: 120px;
+    }
+    .pram1>h3{
+        width: 200%;
+    
+    }
+    .pram1>p{
+        width: 150%;
+        line-height: 30px;
+        font-size: 15px;
+        
+    }
+    .luggage>img{
+        height: 108px;
+        width: 108px;
+        margin-left: 130px;
+    }
+    .room>h3{
+        margin-top:60px;
+
+    }
+    .room>p{
+        width: 20%;
+        font-size: 15px;
+    }
+    .car>img{
+        height: 108px;
+        width: 108px;
+        margin-left: 120px;
+        margin-top: 110px;
+    }
+    .car1>h3{
+        margin-top: 130px;
+        width: 150px;
+    }
+    .car1>p{
+        width: 300px;
+    }
+    .wifi>img{
+        height: 108px;
+        width: 108px;
+        margin-left: 10px;
+        margin-top: 110px;
+    }
+    .wifi1>h3{
+        margin-top: 130px;
+    }
+    .wifi1>p{
+        width: 200px;
+        font-size: 15px;
+    }
+    .chair>img{
+        height: 108px;
+        width: 108px;
+        margin-left: 120px;
+        margin-top: 80px;
+    }
+    .chair1>h3{
+        margin-top: 100px;
+        width: 300px;
+    }
+    .chair1>p{
+        font-size: 15px;
+        width: 80%;
+        line-height: 30px;
+    }
+    .loyal>img{
+        height: 108px;
+        width: 108px;
+        margin-left: -15px;
+        margin-top: 80px;
+    }
+    .loyal1>h3{
+        margin-top: 100px;
+    }
+    .loyal1>p{
+        width: 70%;
+        line-height: 30px;
+    }
+    .found>img{
+        height:108px;
+        width: 108px;
+        margin-left:120px;
+        margin-top: 110px;
+    }
+    .lost1>h3{
+        margin-top:130px;
+
+    }
+    .lost1>p{
+        margin-top: 10px;
+        line-height: 30px;
+        font-size: 15px;
+        width: 80%;
+    }
+    .power>img{
+        height:108px;
+        width: 108px;
+        margin-top: 110px;
+        margin-left: -30px;
+    }
+    .power1>h3{
+        margin-top: 140px;
+    }
+    .power1>p{
+        width: 70%;
+        line-height: 30px;
+    }
+    .info>img{
+        height: 108px;
+        width: 108px;
+        margin-left: 120px;
+        margin-top: 100px;
+    }
+    .info1>h3{
+        margin-top: 120px;
+        width: 200%;
+    }
+    .info1>p{
+        font-size: 15px;
+        width: 130%;
+    }
+    .access>img{
+        height: 108px;
+        width: 108px;
+        margin-top: 100px;
+        margin-left: 125px;
+    }
+    .access1>h3{
+        margin-top: 120px;
+
+    }
+    .access1>p{
+        width: 65%;
+    }
+    .ambulance>img{
+        height: 108px;
+        width: 108px;
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+    .ambulance1>p{
+        margin-top: -10px;
+        width: 55%;
+    }
+    
+    .ev>img{
+        height: 108px;
+        width: 108px;
+        margin-left: -130px;
+        margin-top: 50px;
+    }
+    .ev1>p{
+        width: 70%;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+}
+/* Tab */
+@media screen and (min-width:426px) and (max-width:768px){
+    .valetservice>img{
+         height: 66px;
+        width: 66px;
+        margin-left: 110px;
+
+    }
+    .valetservice1>h3{
+        margin-top: 120px;
+        
+    }
+    .valetservice1>p{
+        font-size: 15px;
+        width: 25%;
+        line-height: 30px;
+        margin-top: -10px;
+    }
+    .care>img{
+        height: 66px;
+        width: 66px;
+        margin-left: -390px;
+    }
+    .care1>h3{
+        width: 150px;
+        line-height: 30px;
+    }
+    .care1>p{
+        width: 150px;
+        font-size: 15px;
+        margin-top: -5px;
+    }
+    .pram>img{
+        height: 66px;
+        width: 66px;
+        margin-left: 110px;
+    }
+    .luggage>img{
+        height: 66px;
+        width: 66px;
+        margin-left:30px ;
+    }
+    .pram1>h3{
+        width: 150px;
+        margin-top: 50px;
+        
+    }
+    .pram1>p{
+        font-size: 15px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    .room>h3{
+        margin-top: 50px;
+    }
+    .room>p{
+        font-size:15px;
+        padding-right: 100px;
+        width: 15%;
+    }
+    .car>img{
+        height: 66px;
+        width: 66px;
+        margin-top: 80px;
+        margin-left: 110px;
+    }
+    .car1>h3{
+        margin-top: 100px;
+        line-height: 20px;
+        width: 100px;
+        
+    }
+    .car1>p{
+        line-height: 10px;
+        width: 120%;
+        line-height: 30px;
+    }
+    .wifi>img{
+        height: 66px;
+        width: 66px;
+        margin-left: 80px;
+        margin-top: 80px;
+    }
+    .wifi1>h3{
+        margin-top: 100px;
+    }
+    .wifi1>p{
+        font-size: 15px;
+        padding-right: 100px;
+    }
+    .chair>img{
+        height: 66px;
+        width: 66px;
+        margin-left: 120px;
+        margin-top: 70px;
+    }
+    .chair1>h3{
+        line-height: 30px;
+        
+    }
+    .chair1>p{
+        width: 150PX;
+        line-height: 30px;
+    }
+    .loyal>img{
+        height: 66px;
+        width: 66px;
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    .loyal1>h3{
+        width: 120px;
+        margin-top: 80px;
+    }
+    .loyal1>p{
+        padding-right: 150px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .found>img{
+        height: 66px;
+        width: 66px;
+        margin-left: 120px;
+        margin-top: 90px;
+    }
+    .lost1>h3{
+        margin-top: 110px;
+    }
+    .lost1>p{
+        padding-right: 250px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    
+    .power>img{
+        height: 66px;
+        width: 66px;
+        margin-left: -200px;
+        margin-top: 80px;
+    }
+    .power1>h3{
+        margin-top: 110px;
+        width: 50%;
+        line-height: 30px;
+    }
+    .power1>p{
+        width:50%;
+        line-height: 30px;
+    }
+    .info>img{
+        height: 66px;
+        width: 66px;
+        margin-left: 120px;
+        margin-top: 60px;
+
+    }
+    .info1>h3{
+        line-height: 30px;
+    }
+    .info1>p{
+        padding-right: 50px;
+        font-size: 15px;
+
+    }
+    .access>img{
+        height: 66px;
+        width: 66px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .access1>h3{
+        width: 20%;
+        line-height: 30px;
+    }
+    .access1>p{
+        padding-right: 100px;
+    }
+    .ambulance>img{
+        height: 66px;
+        width: 66px;
+        margin-left:120px ;
+    }
+    .ambulance1>p{
+        padding-right: 200px;
+        margin-top: -10px;
+    }
+    .ev>img{
+        height: 66px;
+        width: 66px;
+        margin-left: -250px;
+    }
+    .ev1>p{
+        padding-right: 10px;
+        width: 50%;
+        line-height: 30px;
+    }
+
+    
+}
+/* mobile */
+@media screen and (max-width:426px) {
+    .first{
+        display: block;
+    }
+    .valetservice>img{
+        height: 107px;
+        width: 108px;
+        margin-left: 10px;
+    }
+    .valetservice1>h3{
+    
+        margin-top: 100px;
+    
+    
+    }
+    .valetservice1>p{
+        width: 270px;
+        margin-top: -10px;
+    }
+    .valetservice{
+        margin-top: -50px;
+    }
+    .care>img{
+        height: 107px;
+        width: 108px;
+    
+    }
+    .care{
+        padding-left: 190px;
+        margin-top: -50px;
+    }
+    .care1>p{
+        margin-top: 10px;
+        width: 280px;
+    }
+    .care1{
+        margin-top: -10px;
+
+    }
+    .secound{
+        display: block;
+    }
+    .pram{
+        margin-left:-140px;
+        margin-top: 10px;
+        
+    
+    }
+    .pram>img{
+        height: 107px;
+        width: 108px;
+    }
+    .pram1{
+        margin-top: -10px;
+    }
+    .pram1>p{
+        width: 200px;
+        line-height: 30px;
+
+    }
+    .luggage>img{
+        height: 107px;
+        width: 108px;
+    }
+    .luggage{
+        margin-left: -240px;
+    }
+    .room{
+        margin-top: -40px;
+    }
+    .room>p{
+        font-size: medium;
+        padding-left: -300px;
+    }
+    .car{
+        margin-left: -140px;
+    }
+    .car>img{
+        height: 107px;
+        width: 108px;
+    }
+    .car1{
+        margin-top: -20px;
+    }
+    .three{
+        display: block;
+    }
+    .wifi>img{
+        height: 107px;
+        width: 108px;
+        margin-left: 10px;
+    }
+    .wifi1{
+        margin-top: -20px;
+    }
+    .wifi1>p{
+        width: 270px;
+    }
+    .chair>img{
+        height: 107px;
+        width: 108px;
+        
+    }
+    .chair{
+        margin-left: -140px;
+    }
+    .chair1>h3{
+        margin-top: 50px;
+
+    }
+    .four{
+        display: block;
+    }
+    .loyal>img{
+        height: 107px;
+        width: 108px;
+    }
+    .loyal{
+        margin-left: -220px;
+    }
+    .loyal1>h3{
+        margin-top: 50px;
+    }
+    .loyal1>p{
+        line-height: 30px;
+    }
+    .found>img{
+        height: 107px;
+        width: 108px;
+    }
+    .found{
+        margin-left: -140px;
+    }
+    .lost1{
+        margin-top: -20px;
+    }
+    .lost1>p{
+        line-height: 30px;
+    }
+    .five{
+        display: block;
+    }
+    .power>img{
+        height: 107px;
+        width: 108px;
+    }
+    .power{
+        margin-left: -150px;
+    }
+    .power1>h3{
+        margin-top: 50px;
+    }
+    .power1>p{
+        line-height: 30px;
+    }
+    .info>img{
+        height: 107px;
+        width: 108px;
+    }
+    .info{
+        margin-left: -140px;
+    }
+    .info1>p{
+        width: 80%;
+    }
+    .six{
+        display: block;
+    }
+    .access{
+        margin-left: -210px;
+    }
+    .access>img{
+        height: 107px;
+        width: 108px;
+    }
+    .access1>h3{
+        margin-top: 50px;
+    }
+    .access1>p{
+        width: 250px;
+    }
+    .ambulance>img{
+        height: 107px;
+        width: 108px;
+    }
+    .ambulance{
+        margin-left: -140px;
+    }
+    .ambulance1>h3{
+        margin-top: 50px;
+    }
+    .ambulance1>p{
+        padding-top: -10px;
+    }
+    .seven{
+        display: block;
+    }
+    .ev>img{
+        height: 107px;
+        width: 108px;
+    }
+    .ev{
+        margin-left: -80px;
+    }
+    .ev1>h3{
+        margin-top: 50px;
+    }
+    .ev1>p{
+        margin-top: 10px;
+        line-height: 30px;
+    }
+
+
+}
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    color: white;
+    background-color: #040B44;
+    padding-bottom: 30px;
+    display: flex;
+}
+.header1{
+    padding-left: 30px;
+    padding-top: 30px;
+}     
+            /* Find us */
+.header1 h3{
+    color: #F3F3F3;
+    padding-bottom: 20px;
+}
+.header1 p{
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+.follow h3{
+    padding-left: 30px;
+    padding-top: 30px;
+    color: #F3F3F3;
+}
+        /* ICONS */
+.icons{
+   margin-top: 20px;
+}
+.icons i{
+    padding-left: 200px;
+    margin-left: 20px;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.row1{
+    display: inline;
+    padding-left: 30px;
+}
+                  /* row 2 */
+.row2{
+    padding-left: 50px;
+}
+.row2 h3{
+    padding-left: 60px;
+    margin-top: 30px;
+}
+.playstore{
+    height: 80px;
+    width: 200px;
+    margin-toP:10px;
+    margin-left: 60px;
+    
+}
+.appstore{
+    height: 150px;
+    width: 300px;
+   margin-left: 10px;
+   margin-top: -30px;
+}
+#phone2{
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.number{
+    padding-left: 115px;
+    margin-top: -19px;
+}
+.row2>.contact{
+    margin-top: -20px;
+}
+          /* row 3 */
+.row3 h3{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.row3 ul li{
+    padding-left: 42px;
+    padding-top: 15px;
+    list-style: none;
+}
+.row3 ul {
+    padding-top: 10px;
+    color:whitesmoke;
+}
+.row3 ul li a{
+    color: #f2f2f5;
+}
+
+
+/* final row  4*/
+.row4 {
+    padding-left: 40px;
+}
+.row4 h3{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.row4 ul li{
+    padding-left: 42px;
+    padding-top: 15px;
+    list-style: none;
+}
+.row4 ul {
+    padding-top: 10px;
+    color:whitesmoke;
+}
+.row4 ul li a{
+    color: #f2f2f5;
+}
+          /* Final Line */
+.copyright {
+    display: flex;
+    color: #030942;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+.pp{
+    padding-top: 5px;
+    margin-left: 500px;
+    /* padding-left: 00px; */
+    color: #0274BE;
+}
+.tc{
+    padding-top: 5px;
+    margin-left: 10px;
+    color: #0274BE;
+}

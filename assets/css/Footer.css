@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.foot{
+    color:white;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.foot>p{
+    padding: 7px;
+    
+}
+.main .foot{
+    margin-top: 50px;
+}
+.icon{
+    margin-top: 40px;
+    margin-left: 100px;
+    
+}
+.icon>i{
+    width: 50px;
+    color: white;
+}
+.back{
+
+    background-color:#040B44;
+    height: 400px;
+    margin-top: 50px;
+
+    
+}
+
+
+
+.cart2{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -270px;
+    color: white;
+}
+.app>img{
+    height: 45px;
+    width: 150px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.google>img{
+    margin-left: 10px;
+    margin-top: -20px;
+
+}
+.contactpart{
+    margin-top: 50px;
+}
+.contactpart>i{
+    padding: 10px;
+}
+.contactpart>h2{
+    padding-bottom: 10px;
+}
+.cart3{
+    position: absolute;
+    color: white;
+    margin-left: 800px;
+    margin-top: -270px;
+}
+.para>p{
+    padding: 10px;
+}
+.para1>h2{
+    margin-bottom: 10px;
+}
+.cart4{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -270px;
+    color: white;
+}
+.para2>p{
+    padding: 10px;
+}
+
+
+    
+

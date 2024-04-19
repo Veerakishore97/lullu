@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bird{
+    display: inline-flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    line-height: 30px;
+    
+}
+.bird>p{
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.bird>img{
+    height: 250px;
+    width: 1100px;
+}
+.jersey{
+    display: inline-flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    flex-direction: row-reverse;
+    margin-right: 100px;
+    line-height: 30px;
+}
+.jersey>p{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+@media screen and (min-width:1102px) and (max-width:1300px){
+    .bird>img{
+        box-shadow: 2px 2px 10px black;
+        border-radius: 50px;
+        border: 2px solid blue;
+        flex-direction: row-reverse;
+    }
+}
+.gunturkaaram{
+    display: flex;
+    margin-top: 50px;
+}
+.gunturkaaram>img{
+    height:300px;
+    width: 800px;
+
+}
+.gunturkaaram>P{
+    margin-left: 50px;
+    margin-top: 50px;
+    line-height: 30px;
+}
+.pushpa{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row-reverse;
+    line-height:30px ;
+    
+}
+.pushpa>img{
+    height: 250px;
+    width:400px;
+
+}
+.pushpa>p{
+    margin-left: 50px;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
